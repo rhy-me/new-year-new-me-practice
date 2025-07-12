@@ -4,3 +4,47 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    display: flex;
+    height: 800px;
+    width: 1600px;
+}
+
+.banner-content{
+    display: block;
+    max-width: 525px;
+    margin: 216px 230px 364px 845px;
+    text-align: right;
+}
+
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.banner-description{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.btn-primary{
+    width: 160px;
+    height: 64px;
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+}
