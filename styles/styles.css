@@ -48,3 +48,51 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+main {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.failures{
+    display: flex;
+    margin-top: 130px;
+    align-items: center;
+    gap: 90px;
+}
+
+.failure{
+    text-align: left;
+}
+
+li {
+    list-style: none;
+}
+
+.failures-title {
+    max-width: 288px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.failures-description {
+    max-width: 416px;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failures-list {
+    max-width: 349px;
+}
+
+.failure-item {
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+.fa-solid {
+    margin-right: 10px;
+}
