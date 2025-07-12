@@ -113,15 +113,10 @@ li {
 
 .plan{
     display: flex;
-    align-items: center;
+    gap: 110px;
 }
 
 .plan-item{
-    max-width: 214px;
-}
-
-.plan-item-mid{
-    margin-right: 95px;
     max-width: 214px;
 }
 
