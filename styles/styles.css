@@ -14,7 +14,7 @@
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
     display: flex;
-    height: 800px;
+    height: 900px;
     width: 1600px;
 }
 
@@ -57,6 +57,7 @@ main {
 .failures{
     display: flex;
     margin-top: 130px;
+    margin-bottom: 130px;
     align-items: center;
     gap: 90px;
 }
@@ -95,4 +96,37 @@ li {
 
 .fa-solid {
     margin-right: 10px;
+}
+
+.plans {
+    display:block;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.plans-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.plan{
+    display: flex;
+    align-items: center;
+}
+
+.plan-item{
+    max-width: 214px;
+}
+
+.plan-item-mid{
+    margin-right: 95px;
+    max-width: 214px;
+}
+
+.plan-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #151414;
 }
